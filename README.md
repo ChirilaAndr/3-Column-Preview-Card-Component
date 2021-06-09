@@ -21,16 +21,16 @@ Users should be able to:
 
 ### Screenshot
 
-(./screenshot.png)
+./screenshot.png
 
 ### Live Site
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: https://chirilaandr.github.io/3-Column-Preview-Card-Component/
 
 
 ## Author
 
-- Linkedin - https://www.linkedin.com/in/chirilaandr/
+- Linkedin - [@ChirilaAndr](https://www.linkedin.com/in/chirilaandr/)
 - Frontend Mentor - [@ChirilaAndr](https://www.frontendmentor.io/profile/ChirilaAndr)
 
 
