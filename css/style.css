@@ -1,0 +1,128 @@
+ :root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --very-light-gray: hsl(0, 0%, 95%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+ }
+
+ body{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+ }
+ 
+.container {
+      padding:15px;
+      margin:auto;
+}
+  
+.sedans{
+     background: var(--bright-orange);
+     padding: 30px; 
+     border-radius: 10px 10px 0 0;
+}
+
+.suvs{
+    background: var(--dark-cyan);
+    padding: 30px;
+}
+
+.luxury{
+    background: var(--very-dark-cyan);
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+  
+.car-type{
+     font-family: "Big Shoulders Display", sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+     color:var(--very-light-gray);
+     margin: 20px 0 20px 0;
+     text-transform:uppercase;
+ }
+
+ .description{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    color:var(--transparent-white);
+    margin: 20px 0 20px 0;
+    line-height: 1.5;
+}
+
+button{
+    height:30px;
+    width:100px;
+    border: 2px solid var(--very-light-gray);
+    border-radius:20px;
+    background: var(--very-light-gray);
+    font-family: "Lexend Deca", sans-serif;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover{
+    color:var(--transparent-white);
+    background:transparent;
+    cursor: pointer;
+}
+
+.sedan-button{
+   color: var(--bright-orange); 
+}
+
+.suv-button{
+    color: var(--dark-cyan);
+}
+
+.luxury-button{
+    color: var(--very-dark-cyan);
+}
+
+
+
+img{
+    height:40px;
+    width:64px;
+
+}  
+
+
+@media only screen and (min-width: 576px) {
+    .container{
+        display: flex;
+        max-width: 750px;
+        justify-content: center;
+        align-items: stretch;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        }
+    
+
+    .sedans{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+  
+    .card{
+        width:33%;
+    }
+
+    button{
+        margin: 20px 0;
+    }
+
+    .flexed{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height:90%;
+    }
+}
+
+
