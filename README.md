@@ -5,7 +5,8 @@ Code might not be perfect as I am still learning.
 
 ### The challenge
 
-This is a solution to the ![3-column preview card component challenge on Frontend Mentor] (https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the ![3-column preview card component challenge on Frontend Mentor](./design/desktop-preview.jpg).
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 Users should be able to:
 
